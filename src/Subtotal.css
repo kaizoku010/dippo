@@ -1,0 +1,49 @@
+.subtotal {
+  flex-direction: column;
+  display: flex;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  justify-content: space-between;
+}
+
+/* 
+@media{
+
+}
+ */
+
+.subtotal__gift {
+  display: flex;
+  align-items: center;
+}
+
+.subtotal__gift > input {
+  margin-right: 5px;
+}
+
+.subtotal > button {
+  background: #f30240;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 10px;
+  color: white;
+  border: 1px solid;
+  border-color: #f30240 #e60d43 #ac0a32;
+}
+.subtotal > button:hover {
+  background: #0a0a52;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 10px;
+  color: white;
+  border: 1px solid;
+  border-color: #0a0a52 #1e1e91 #3434d8;
+}
+
+.checkoutProduct__star {
+  color: gold;
+}

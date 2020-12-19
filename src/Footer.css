@@ -1,0 +1,42 @@
+footer {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  background-color: #111;
+  color: white;
+}
+
+.footer__holder {
+  margin: 21px;
+  text-align: justify;
+}
+
+.footer > a {
+  color: red;
+}
+
+.footer__div {
+  display: block;
+}
+
+.bottom__footer {
+  background-color: #111;
+  text-align: center;
+  color: gray;
+  padding-bottom: 10px;
+}
+
+.footer__subscription {
+  flex-grow: 3;
+}
+
+.footer__holderItem {
+  margin-top: 48px;
+}
+
+.footer__divider {
+  color: whites;
+  border-radius: 5px;
+  align-self: center;
+  width: 100%;
+}
